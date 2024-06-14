@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 mongoose
-  .connect('mongodb://localhost:27017/form-database')
+  .connect(
+    'mongodb+srv://durgeshkuchimern:mx2YVmttRdJzrJTY@form-database.rowa7wy.mongodb.net/'
+  )
   .then(() => {
     console.log('Connection successful')
   })
